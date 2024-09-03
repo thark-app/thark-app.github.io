@@ -1,3 +1,9 @@
+<style>
+  body {
+    background-color: #000000; /* Dark background */
+    color: #ffffff; /* White text for contrast */
+  }
+</style>
 
 
 # 🌟 Thark 🌟
