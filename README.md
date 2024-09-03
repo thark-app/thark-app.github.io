@@ -1,11 +1,3 @@
-<style>
-  body {
-    background-color: #000000; /* Dark background */
-    color: #ffffff; /* White text for contrast */
-  }
-</style>
-
-
 # 🌟 Thark 🌟
 
 **Thark** is your ultimate app for streaming and downloading adult content online—totally free! 🚀 Dive into a world of high-quality adult content from across the globe, all sourced from top third-party sites. 
