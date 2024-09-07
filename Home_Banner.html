@@ -3,26 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Banner</title>
-<style>
-    @html {
-        background-color: #000000
-    }
-</style>
-    
+    <title>Responsive Banner Ad</title>
+    <style>
+        html {
+            background-color: #000000;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        /* Responsive iframe */
+        .banner-container {
+            width: 100%;
+            max-width: 728px; /* max width for large screens */
+        }
+
+        iframe {
+            width: 100%;
+            height: auto;
+        }
+
+        /* Adjust banner size for smaller screens */
+        @media (max-width: 768px) {
+            .banner-container {
+                max-width: 468px; /* smaller banner for tablets */
+            }
+        }
+
+        @media (max-width: 480px) {
+            .banner-container {
+                max-width: 320px; /* smaller banner for mobile phones */
+            }
+        }
+    </style>
 </head>
 <body>
 
- <script type="text/javascript">
- atOptions = {
-  'key' : 'fe249115db6c80212452f293681b61d5',
-  'format' : 'iframe',
-  'height' : 90,
-  'width' : 728,
-  'params' : {}
- };
-</script>
-<script type="text/javascript" src="//www.topcreativeformat.com/fe249115db6c80212452f293681b61d5/invoke.js"></script>
-    
+<div class="banner-container">
+    <script type="text/javascript">
+    atOptions = {
+      'key' : 'fe249115db6c80212452f293681b61d5',
+      'format' : 'iframe',
+      'height' : 90,
+      'width' : 728,
+      'params' : {}
+    };
+    </script>
+    <script type="text/javascript" src="//www.topcreativeformat.com/fe249115db6c80212452f293681b61d5/invoke.js"></script>
+</div>
+
 </body>
 </html>
